@@ -3,4 +3,6 @@
 
  ## Usage 
  ```bash 
-  ```
+ apk add curl 
+ curl -SsL -o /etc/apk/keys/otc-auth.rsa.pub https://iits-consulting.github.io/apk-repo otc-auth.rsa.pub 
+ apk add otc-auth --repository='https://iits-consulting.github.io/apk-repo' ```
